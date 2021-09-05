@@ -57,3 +57,59 @@ puts('*'*80)
 # Task 15
 puts("Numeric === 5: #{Numeric === 5}")
 puts("String === test: #{String === 'test'}")
+puts('*'*80)
+
+# Task 16
+x = 10
+if x>0 && x<=10
+  puts("x = #{x}")
+else
+  puts ("Try another number")
+end
+puts('*'*80)
+
+# Task 17
+a = nil
+b = false
+c = 5
+if a!=b && b!=c
+  a = c
+  p ("a = #{a}, c = #{c}")
+end
+puts('*'*80)
+
+# Task 18
+d = 10
+f = 200
+if d==10 || f==20
+  puts("Today is a good day")
+else
+  puts("Please try again")
+end
+puts('*'*80)
+
+# Task 19
+d > f ? p('Ruby') : p('Rails')
+puts('*'*80)
+
+# Task 20
+a = 10
+ case
+       when a == 10 then puts "a equals 10"
+       else puts "a does not equal 10"
+       end
+puts('*'*80)
+
+# Task 21
+x = rand(360)
+case x
+when 0...90
+  puts('x is in the first quarter')
+when 91...180
+  puts('x is in the second quarter')
+when 181...270
+  puts('x is in the third quarter')
+else
+  puts('x is in the fourth quarter')
+end
+
