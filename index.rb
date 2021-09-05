@@ -94,10 +94,10 @@ puts('*'*80)
 
 # Task 20
 a = 10
- case a
-       when 10 then puts "a equals 10"
-       else puts "a does not equal 10"
-       end
+case a
+when 10 then puts("a equals 10")
+else puts("a does not equal 10")
+end
 puts('*'*80)
 
 # Task 21
@@ -113,8 +113,8 @@ else
   puts("x = #{x} it is in the fourth quarter")
 end
 
-if x<=90 then puts("x = #{x} it is in the first quarter")
-elsif x<=180 then puts("x = #{x} it is in the second quarter")
-elsif x<=270 then puts("x = #{x} it is in the third quarter")
+if x >= 0 && x <= 90 then puts("x = #{x} it is in the first quarter")
+elsif x > 90 && x <= 180 then puts("x = #{x} it is in the second quarter")
+elsif x > 180 && x <= 270 then puts("x = #{x} it is in the third quarter")
 else puts("x = #{x} it is in the fourth quarter")
 end
