@@ -94,8 +94,8 @@ puts('*'*80)
 
 # Task 20
 a = 10
- case
-       when a == 10 then puts "a equals 10"
+ case a
+       when 10 then puts "a equals 10"
        else puts "a does not equal 10"
        end
 puts('*'*80)
