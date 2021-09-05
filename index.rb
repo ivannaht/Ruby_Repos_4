@@ -35,12 +35,25 @@ puts("1==1: #{1==1}")
 puts("1==1.0: #{1==1.0}")
 puts('*'*80)
 
-# Task 9
+# Task 9, 12
 str_1 = "This is test"
 str_2 = "This is test"
 puts("str_1==str_2: #{str_1==str_2}")
+puts("str_1===str_2: #{str_1===str_2}")
+puts("str_1.equal?(str_2): #{str_1.equal?(str_2)}")
 puts('*'*80)
 
 # Task 10, 11
 puts("1.eql?(1.0): #{1.eql?(1.0)}")
 puts("1.equal?(1): #{1.equal?(1)}")
+puts('*'*80)
+
+# Task 14
+R = (1..100)
+puts("R.include?(55): #{R.include?(55)}")
+puts("R === 55: #{R === 55}")
+puts('*'*80)
+
+# Task 15
+puts("Numeric === 5: #{Numeric === 5}")
+puts("String === test: #{String === 'test'}")
