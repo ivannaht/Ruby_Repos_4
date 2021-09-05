@@ -104,12 +104,17 @@ puts('*'*80)
 x = rand(360)
 case x
 when 0...90
-  puts('x is in the first quarter')
+  puts("x = #{x} it is in the first quarter")
 when 91...180
-  puts('x is in the second quarter')
+  puts("x = #{x} it is in the second quarter")
 when 181...270
-  puts('x is in the third quarter')
+  puts("x = #{x} it is in the third quarter")
 else
-  puts('x is in the fourth quarter')
+  puts("x = #{x} it is in the fourth quarter")
 end
 
+if x<=90 then puts("x = #{x} it is in the first quarter")
+elsif x<=180 then puts("x = #{x} it is in the second quarter")
+elsif x<=270 then puts("x = #{x} it is in the third quarter")
+else puts("x = #{x} it is in the fourth quarter")
+end
