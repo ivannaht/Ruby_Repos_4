@@ -1,0 +1,22 @@
+Tasks list
+• Declare an expression that adds any two integer elements
+• Announce the expression 2 + 2 * 2, investigate the priority of operations. Change the priority of operations with parentheses
+• Find the root of the number 64 by raising it to the power of 1/2
+• Declare for deriving four expressions using four basic mathematical operations
+• Declare several expressions using the comparison operators>,> =, <, <=
+• Investigate the work of the operator <=>
+• Compare the values ​​1 and 1 (Expression 1 == 1)
+• Compare the values ​​1 and 1.0 (Expression 1 == 1.0)
+• Compare two identical lines with the == operator
+• Compare two lessons 1 and 1.0 using the eql method?
+• Compare the names 1 and 1 with the equal method?
+• Compare two identical lines with the operator == and ===
+• Compare two identical lines with the equal operator?
+• Declare a Range from 1 to 100 and check if it includes a value of 55 in two ways, using the include method? and operator ===
+• Verify that the number 5 belongs to the Numeric class and that the string 'test' belongs to the String class using the === method
+• Write any expression using the && operator
+• Declare three variables a = nil, b = false, c = 5. Write the following expression using the && operator and the operator! (objection), which would return the number 5
+• Declare any expression using the || operator
+• Declare two variables with any integer values. Write a trinary operator that would return the text 'Ruby' if the first number is greater than the second and 'Rails' if the first number is less than the second
+• Declare the variable a = 10. Write a condition that would display "a equals 10" if a == 10, and the message "a does not equal 10"
+• Declare the variable x, and assign it a value from 0 to 360 using the rand method. Write a conditional statement that would check which quarter x is in two ways, using if elsif and using the case then statement
